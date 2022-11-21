@@ -3,6 +3,7 @@ import { ChakraProvider, ColorModeScript } from '@chakra-ui/react'
 import theme from '../theme'
 import Layout from '../components/Layout'
 import Head from 'next/head'
+import { EditorContextProvider } from '../contexts/editorContext'
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 	return (
@@ -35,9 +36,11 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 
 			<ChakraProvider theme={theme}>
 				<ColorModeScript initialColorMode={theme.config.initialColorMode} />
-				<Layout>
-					<Component {...pageProps} />
-				</Layout>
+				<EditorContextProvider>
+					<Layout>
+						<Component {...pageProps} />
+					</Layout>
+				</EditorContextProvider>
 			</ChakraProvider>
 		</>
 	)

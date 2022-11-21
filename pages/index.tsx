@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
-import Welcome from '../components/Welcome'
+import MarkdownPreview from '../components/MarkdownPreview'
 
 const Home: NextPage = () => {
 	return (
 		<main role='main'>
-			<Welcome />
+			<MarkdownPreview />
 		</main>
 	)
 }

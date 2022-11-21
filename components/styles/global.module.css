@@ -1,0 +1,128 @@
+.markdown h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.markdown h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.markdown h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.markdown h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.markdown h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.markdown h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.markdown p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.markdown a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+.markdown strong {
+  font-weight: 700;
+}
+
+.markdown em {
+  font-style: italic;
+}
+
+.markdown blockquote {
+  margin: 8px 0;
+  padding: 0.4rem 1.5rem;
+  color: #6a737d;
+  border-left: 0.25rem solid #dfe2e5;
+
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 2rem;
+  margin-top: 0;
+}
+
+.markdown li {
+  margin-top: 0.25rem;
+}
+
+.markdown li > p {
+  margin-top: 0.25rem;
+}
+
+.markdown li + li {
+  margin-top: 0.25rem;
+}
+
+.markdown code {
+  background-color: black;
+  border-radius: 6px;
+  padding: 1.2rem ;
+  margin: 0;
+}
+
+.markdown pre {
+  border-radius: 30px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.markdown table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown table th {
+  font-weight: 600;
+}
+
+.markdown table th,
+.markdown table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.markdown table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown img {
+  max-width: 100%;
+} 
+
+/* Path: components/layout/layout.module.css */
+

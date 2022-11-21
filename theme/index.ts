@@ -44,13 +44,13 @@ const styles = {
 	// add global styles
 	global: (props: StyleFunctionProps) => ({
 		body: {
-			// example of changing both the background &
+			// changing both the background &
 			// foreground color based on the color mode
-			bg: mode('#F6F6F6', '#36393F')(props),
+			bg: mode('#F6F6F6', '#161719')(props),
 			color: mode('#292B30', '#ffffff')(props)
 		},
 		h1: {
-			// example of changing a particular element's style
+			// changing an element's style
 			// fontSize: '6xl',
 			// color: mode('red.900', 'red.100')(props)
 		}
